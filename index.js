@@ -6,7 +6,8 @@ app.listen(3000, () => {
     console.log(`Server is listening on port: 3000`)
     const serversToWakeUp = [
         "https://wake-up-server-ugof.onrender.com",
-        "https://sriram-jenkins-app.onrender.com/"
+        "https://sriram-jenkins-app.onrender.com/",
+        "https://aec-semester-exam-results-retriever.onrender.com"
     ];
     setInterval(() => {
         for(const server of serversToWakeUp) {
